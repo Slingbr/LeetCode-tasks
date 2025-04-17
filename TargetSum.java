@@ -8,6 +8,6 @@ public class TargetSum {
                         }
                     }
                 }
-                return new int[0]; // If no solution found (though the prompt says there always is one)
+                return new int[0]; 
             }
         }
