@@ -8,6 +8,6 @@ public class TargetSum {
                         }
                     }
                 }
-                return new int[0]; 
+                return new int[0];
             }
         }
