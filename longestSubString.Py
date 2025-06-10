@@ -54,6 +54,6 @@ for L in range(len(s)):
 
 
 sol = Solution()
-input_str = "abcabcbb"
+input_str = "zarghtzegegfegegeggwfqWfweggwfwsdfthxjhrf"
 result = sol.lengthOfLongestSubstring(input_str)
 print("Output:", result)
