@@ -43,6 +43,14 @@ class Solution2:
         max_len = 0
         start = 0
 
+for L in range(len(s)):
+            if s[L] in char_index and char_index[s[L]] >= start:
+                start = char_index[s[L]] + 1
+            
+            char_index[s[L]] = L
+            max_len = max(max_len, L - start + 1)
+
+        return max_len
 
 
 sol = Solution()
