@@ -23,3 +23,15 @@ Note: "pwke" is a subsequence, not a substring.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         highest_len = 0
+
+  n = len(s)
+        
+        for i in range(n):
+            seen = set()
+            for j in range(i, n):
+                if s[j] in seen:
+                    break
+                seen.add(s[j])
+                highest_len = max(highest_len, j - i + 1)
+        
+        return highest_len
