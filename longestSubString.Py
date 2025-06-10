@@ -35,6 +35,16 @@ class Solution:
                 highest_len = max(highest_len, j - i + 1)
         
         return highest_len
+
+""" my optimised sol""" 
+class Solution2:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        char_index = {}
+        max_len = 0
+        start = 0
+
+
+
 sol = Solution()
 input_str = "abcabcbb"
 result = sol.lengthOfLongestSubstring(input_str)
