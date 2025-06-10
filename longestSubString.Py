@@ -19,3 +19,7 @@ Explanation: The answer is "wke", with the length of 3.
 Note: "pwke" is a subsequence, not a substring.
 """
 
+"""my brute force solution"""
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        highest_len = 0
