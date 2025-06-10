@@ -35,3 +35,7 @@ class Solution:
                 highest_len = max(highest_len, j - i + 1)
         
         return highest_len
+sol = Solution()
+input_str = "abcabcbb"
+result = sol.lengthOfLongestSubstring(input_str)
+print("Output:", result)
